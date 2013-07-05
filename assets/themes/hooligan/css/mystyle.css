@@ -3,7 +3,8 @@
 }
 
 .posts>li>a {
-  font-size : 20px;
+  font-size : 16px;
+  font-family: 'Oxygen', 黑体;
 }
 
 .readMore {
