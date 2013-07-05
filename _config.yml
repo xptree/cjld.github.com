@@ -9,14 +9,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : CJLD小伙伴
-tagline: 
+title : CJLD
+tagline: tagline是干什么的
 author :
   name : cjld
   email : jasonzhu8@126.com
   github : cjld
-  twitter : 
-  feedburner : 
+#  twitter : 
+#  feedburner : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

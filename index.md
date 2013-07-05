@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: CJLD军火库
+tagline: 小小技术BLOG
 ---
 {% include JB/setup %}
 
