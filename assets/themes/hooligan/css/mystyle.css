@@ -1,0 +1,16 @@
+.posts {
+  width : 700px;
+}
+
+.posts>li>a {
+  font-size : 20px;
+}
+
+.readMore {
+  font-size : 14px;
+  color : rgb(92,92,92);
+}
+
+.readMore:hover {
+  color : rgb(255,255,255);
+}
