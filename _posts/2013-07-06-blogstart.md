@@ -15,7 +15,7 @@ tags: [jekyll, github]
 *xieti*
 
 
-以前的blog是在csdn上写的，[传送门](http://blog.csdn.net/jasonzhu8)。在这种地方写blog难免被各路大神鄙视缺少GEEK范\*虽然我也从来不是个GEEK\*，不过出于可定制性的考虑，而且自己还有一点写网页的基础，正好自己不怎么懂后台和数据库，jekyll本质上又是动态生成静态页面，也就不需要操心数据库和后台了，攻击什么的也毫无压力，于是乎就选了在github上用jekyll搭建。
+以前的blog是在csdn上写的，[传送门](http://blog.csdn.net/jasonzhu8)。在这种地方写blog难免被各路大神鄙视缺少GEEK范*虽然我也从来不是个GEEK*，不过出于可定制性的考虑，而且自己还有一点写网页的基础，正好自己不怎么懂后台和数据库，jekyll本质上又是动态生成静态页面，也就不需要操心数据库和后台了，攻击什么的也毫无压力，于是乎就选了在github上用jekyll搭建。
 
 顺便还学了下git、markdown和liquid，不错不错。
 
