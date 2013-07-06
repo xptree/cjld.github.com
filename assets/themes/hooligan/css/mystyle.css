@@ -32,3 +32,7 @@
 .tag_box {
   font-family : 'Oxygen', 黑体;
 }
+
+li {
+  line-height : 24px;
+}
