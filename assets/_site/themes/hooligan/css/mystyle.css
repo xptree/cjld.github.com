@@ -15,7 +15,3 @@
 .readMore:hover {
   color : rgb(255,255,255);
 }
-
-.breadcrumb li {
-  display : list-item;
-}
