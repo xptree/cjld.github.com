@@ -1,8 +1,17 @@
 .posts {
-  max-width : 700px;
+  min-width : 200px;
+  width : 65%;
+  float : left;
 }
 
-.posts>li>a {
+.ToDoDiv {
+  padding-left : 5%;
+  width : 30%;
+  min-width : 200px;
+  float : left;
+}
+
+.posts>ul>li>a {
   font-size : 16px;
   font-family: 'Oxygen', 黑体;
 }
