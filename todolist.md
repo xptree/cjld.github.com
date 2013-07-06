@@ -5,11 +5,8 @@ header: ToDoList
 group: todo
 ---
 
-* aaa
-* bbb
-* ccc
-* ddd
-* 来几个中文试试
-* ass we can
-* 孵卵壳
-* 啊♂♂♂♂
+* CUDA
+* PatchMatch
+* 辐射度方法
+* 智能体系列赛
+* siggraph
