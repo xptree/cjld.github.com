@@ -28,3 +28,7 @@
 .breadcrumb li {
   display : list-item;
 }
+
+.tag_box {
+  font-family : 'Oxygen', 黑体;
+}
