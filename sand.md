@@ -7,7 +7,26 @@ tagline: 一些零散的、不能成为一篇文章的小trick
 ---
 ***
 
+    **g++Trick**
+
+    CPLUS_INCLUDE_PATH : include文件夹 可-I"dir"
+    LIBRARY_PATH : lib文件夹 可-L"dir"
+    -Dxxxx : 相当于define xxxx
+    -U : 相当于undef
+
+***
+
+    **makefileTrick**
+
+    $@ : 目的文件名
+    $< : 依赖列表的第一个文件
+    $^ : 整个依赖列表
+    $(xx) : 宏定义
+
+***
+
     **stickcd**
+
     1xpWZLteR4uOryFOOZlyAPfwCaUbRo5AkHoJuNx4cDbAqdFyaFxeO7L73shWMEleYTQNSSlm14AFLSCMWljySl3N3P0OOoNpzQQxNsMtP0W5hIwdDuaH*oUF1qeWUNXSdYURPOOPRUYdjqy5FQcp1GWn3Mg*Li4TtIkBf8e9hEoNzaCrVCjSpYuhreSH70G93.wvMLLMOVlqw19K5GSftAk21OtFGd*OoHmD0YsR1a8jJzV8oT9uyhRC.nbQG7*uojgdbaabdgksVdoalzAN8aFj
 
 ***
