@@ -62,5 +62,6 @@ tagline: 一些零散的、不能成为一篇文章的小trick
     [attribute^=value] 开头
     [attribute$=value] 结尾
     [attribute*=value] 包含
+    box-shadow : x y dl color
 
 ***
