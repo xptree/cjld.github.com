@@ -25,10 +25,12 @@ tags: [openCL]
 
     获得所有Platform函数：
 
+        {% highlight cpp %}
         cl_int clGetPlatformIDs(
             cl_uint num_entries,
             cl_platform_id *platforms,
             cl_uint *num_platforms)
+        {% endhighlight %}
         
     在OpenCL里面为了获取一个数组元素，都和这个结构差不多
 
@@ -255,6 +257,7 @@ tags: [openCL]
 简单的利用这个加法器对我的CPU(i5-2410M)以及GPU(AMD HD 6470M)的性能做了一下测试：
 
 一共500个进程，每个进程做10000000次浮点加法，结果分别如下：
+
 * AMD平台的GPU(AMD HD 6470M) device __260ms__ 相当于192GHz
 * AMD平台的CPU(i5-2410M) device __530ms__ 相当于94GHz
 * inter平台的CPU(i5-2410M) device __136ms__ 相当于367Ghz
