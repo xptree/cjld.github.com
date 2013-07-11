@@ -25,12 +25,10 @@ tags: [openCL]
 
     获得所有Platform函数：
 
-        {% highlight cpp %}
         cl_int clGetPlatformIDs(
             cl_uint num_entries,
             cl_platform_id *platforms,
             cl_uint *num_platforms)
-        {% endhighlight %}
         
     在OpenCL里面为了获取一个数组元素，都和这个结构差不多
 
