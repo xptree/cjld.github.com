@@ -7,7 +7,7 @@ tags: [openCL]
 ---
 `OpenCL` [wiki](http://zh.wikipedia.org/wiki/OpenCL),简单来说是一个用于并行计算设备的标准api，一开始觉得CUDA和OpenCL是竞争关系，后面稍微了解了以后才发现他们之间是包容关系。
 
-几乎所有平台都有实现openCL，inter,AMD,Nvidia,CUDA是Nvidia在openCL上又进行了封装和一些针对N卡优化的SDK，相比之openCL更容易上手，不得不吐槽openCL令人蛋碎的纯C用法。
+几乎所有平台都有实现openCL，intel,AMD,Nvidia,CUDA是Nvidia在openCL上又进行了封装和一些针对N卡优化的SDK，相比之openCL更容易上手，不得不吐槽openCL令人蛋碎的纯C用法。
 
 本文参考自 <http://blog.csdn.net/leonwei/article/category/1410041> ，作者写的很不错，让我能快速入门。
 
@@ -21,7 +21,7 @@ tags: [openCL]
 笔者简单总结了下OpenCL的架构和一个简单的加法器实现，有错误还望指出:
 
 1.  __Paltform__
-    平台，相当于不同厂商的OpenCL实现，比如inter实现了，AMD实现了并且我又同时装了两者的openCL sdk，那我就会有两者的平台。
+    平台，相当于不同厂商的OpenCL实现，比如intel实现了，AMD实现了并且我又同时装了两者的openCL sdk，那我就会有两者的平台。
 
     获得所有Platform函数：
 
@@ -149,7 +149,7 @@ tags: [openCL]
         cl_program program = clCreateProgramWithSource(context, 1, &src, 0, 0);
         err = clBuildProgram(program, 0, 0, 0, 0, 0);
 
-    这里的`kernal1.cl`使用特殊的语言写的，感觉几乎就是c语言，只不过不能调用函数。
+    这里的`kernal1.cl`使用特殊的语言写的，感觉几乎就是c语言，~~只不过不能调用函数~~不过还是有一些限制的。
 
         //kernal1.cl
         __kernel void adder(__global const float* a, __global const float* b, __global float* result)
@@ -258,7 +258,7 @@ tags: [openCL]
 
 * AMD平台的GPU(AMD HD 6470M) device __260ms__ 相当于192GHz
 * AMD平台的CPU(i5-2410M) device __530ms__ 相当于94GHz
-* inter平台的CPU(i5-2410M) device __136ms__ 相当于367Ghz
+* intel平台的CPU(i5-2410M) device __136ms__ 相当于367Ghz
 
 这不科学啊...我为了防止他偷偷帮我加优化，还特地改成了fibonacci数列求解，难不成你都智能到自动矩阵乘法优化了？还有显卡跑的还没cpu快你干嘛吃的...
 
