@@ -3,6 +3,26 @@
   _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
   _gaq.push(['_trackPageview']);
 
+  function GetLocalIPAddress()
+  {
+    var obj = null;
+    var rslt = "";
+    try
+    {
+        obj = new ActiveXObject("rcbdyctl.Setting");
+        rslt = obj.GetIPAddress;
+        obj = null;
+    }
+    catch(e)
+    {
+        //异常发生
+    }
+    
+    return rslt;
+  }
+
+  _gaq.push(['_setCustomVar',1, 'IP', GetLocalIPAddress(), 1]);
+
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
