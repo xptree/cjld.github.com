@@ -48,6 +48,7 @@ tagline: 一些零散的、不能成为一篇文章的小trick
     :%s/fuck/fuckly/gc
     yaw 复制当前单词
     :on[ly] 仅仅保留当前分割窗口
+    <C-q> I 块插入mswin下
     Netrw 一些用法
       :Exp <alt-E> <alt-F3> 打开
       v 垂直分割打开
