@@ -38,7 +38,6 @@ tagline: 一些零散的、不能成为一篇文章的小trick
     fx Fx 跳转同行x字符
     nN 前后重复查找
     C-o C-l 跳回
-    ma 'a 设定跳跃标记a
     gf 打开光标处文件
     cw 删掉当前单词并进入插入模式
     <C-q> mswin可视块
@@ -48,6 +47,14 @@ tagline: 一些零散的、不能成为一篇文章的小trick
     exe 运行后面的字符串命令
     :%s/fuck/fuckly/gc
     yaw 复制当前单词
+    :on[ly] 仅仅保留当前分割窗口
+    Netrw 一些用法
+      :Exp <alt-E> <alt-F3> 打开
+      v 垂直分割打开
+      d 新建目录
+      c 设置目录为当前目录
+      % 创建新文件并打开
+      
 
 ***
 
